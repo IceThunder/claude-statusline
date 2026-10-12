@@ -20,13 +20,13 @@ Haiku 5.5  5h ██░░░░░░░░  20% ↻4h22m  7d █████�
 一行安装（不需要先 clone）：
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/OWNER/claude-statusline/main/install.py | python3 - --budget 200
+curl -fsSL https://raw.githubusercontent.com/IceThunder/claude-statusline/main/install.py | python3 - --budget 200
 ```
 
 或者 clone 后安装：
 
 ```sh
-git clone https://github.com/OWNER/claude-statusline.git
+git clone https://github.com/IceThunder/claude-statusline.git
 cd claude-statusline
 python3 install.py --budget 200
 ```

@@ -5,7 +5,7 @@ Install (from a clone):
     python3 install.py --budget 200
 
 Install (one line, no clone needed):
-    curl -fsSL https://raw.githubusercontent.com/OWNER/claude-statusline/main/install.py | python3 - --budget 200
+    curl -fsSL https://raw.githubusercontent.com/IceThunder/claude-statusline/main/install.py | python3 - --budget 200
 
 Remove:
     python3 install.py --uninstall
@@ -18,7 +18,7 @@ import sys
 import urllib.request
 from datetime import datetime
 
-REPO_RAW = "https://raw.githubusercontent.com/OWNER/claude-statusline/main"
+REPO_RAW = "https://raw.githubusercontent.com/IceThunder/claude-statusline/main"
 CLAUDE_DIR = os.path.expanduser("~/.claude")
 SETTINGS = os.path.join(CLAUDE_DIR, "settings.json")
 SCRIPT = os.path.join(CLAUDE_DIR, "statusline.py")
